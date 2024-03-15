@@ -1,4 +1,6 @@
-# NeKode - Cat Encoder-Decoder
+<p align="center">
+  <img src="https://github.com/0xT3sla/NeKode/raw/ff4e340bc2344270b2c606dde1f97e5707343051/static/nekode-logo.png" width=200px alt="NeKode Logo">
+</p>
 
 NeKode is a web application designed to encode and decode text using a unique binary encoding scheme inspired by cats. The encoding replaces '0' with 'Mew' and '1' with 'Meow', providing a fun and playful way to manipulate text.
 
