@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Encoder/Decoder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <div class="shield-cat-icon">
+                <i class="fas fa-shield-cat"></i>
+            </div>
+            <span class="logo-text">NeKode</span><br>
+            <span class="title-description">A Cat Encoder-Decoder</span>
+        </div>         
+        
+        
+        <form id="encoder-form" method="POST" action="/">
+            <div class="input-container">
+                <textarea id="text" name="text" style="width: 400px;" required></textarea>            <div class="options">
+                <select id="option" name="option">
+                    <option value="encode" selected>Encode</option>
+                    <option value="decode">Decode</option>
+                </select>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+        <div class="output-container" id="output-container" style="display: none;">
+            <div id="error-message" class="error"></div>
+            <div id="output-text"></div>
+        </div>        
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

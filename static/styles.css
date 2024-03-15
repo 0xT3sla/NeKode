@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    height: 200px;
+    width: 400px; /* Set the width to 300px */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+.options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e60000;
+}
+
+.output-container {
+    margin-top: 20px;
+}
+
+.error {
+    color: #ffe100;
+    margin-top: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+.shield-cat-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ff4d4d; /* Red background color */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1), -4px -4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.shield-cat-icon i {
+    color: white; /* White color for the cat icon */
+    font-size: 48px; /* Increase the font size */
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-left:10px;
+    margin-top: 10px;
+}   
+.title-description
+{
+    font-size: 10px;
+    color:#ff4d4d;
+}
+
+#output-container {
+    width: 400px;
+    margin-top: 20px;
+    background-color: #ff4d4d; /* Red background color */
+    border-radius: 5px;
+    padding: 10px;
+    display: none; /* Initially hidden */
+}
+
+#output-text {
+    color: #ffffff; /* White text color */
+}
